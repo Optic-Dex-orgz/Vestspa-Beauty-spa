@@ -74,6 +74,30 @@
     <!------------------Staff--------------------->
     <!------------------Staff--------------------->
     <!------------------Form--------------------->
+    <section id="book_a_treatment">
+        <h2 id="bookh2">Book a Treatment</h2>
+        <img id="bookImg" src="./assets/img/2-jpeg.jpeg" alt="Treatment">
+         <form id="myform">
+                    <label>Fill in the form and make a reservation</label>
+                   <input type="text" name="name" id="name" placeholder="NAME" required />
+                   <input type="email" name="email" id="email" placeholder="EMAIL" required />
+                   <input type="text" name="service" id="service" placeholder="SERVICE" required />
+                   <input type="tel" name="phone" id="phone" placeholder="PHONE" required />
+                   <input placeholder="DATE" type="text" onfocus="(this.type = 'date')"  id="date" required>
+                   <input placeholder="TIME" type="text" onfocus="(this.type = 'time')"id="time" name="time" min="09:00" max="18:00" required>
+                   <textarea type="text" name="text" id="message" placeholder="COMMENT" required></textarea>
+                   <div id="buttons">
+                   <button type="button" id="submit" onclick="formvalidation()">RESERVE NOW</button>
+                   <button type="button" id="reset">RESET</button>
+                </div>
+               </form>
+               <div id="bookIcons">
+                   <img class="jasmin" src="./assets/img/jasmine-png.png" alt="jasmine_flower" />
+                   <img id="china" src="./assets/img/china-rose-png.png" alt="china_rose" />
+                   <img class="jasmin" src="./assets/img/jasmine-png.png" alt="jasmine_flower" />
+
+            </div>
+    </section>
     <!------------------Form--------------------->
 </div>
     <!------------------Footer--------------------->
