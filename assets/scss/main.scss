@@ -14,6 +14,15 @@ list-style: none;
 @import './helper/animation';
 
 
+body {
+    max-width: 1920px;
+    margin: auto auto;
+    div { 
+        max-width: 1620px;
+        margin: auto auto;
+    }
+}
+
 // <!------------------Anne´s Kode--------------------->
 
 // <!------------------Anne´s Kode--------------------->
