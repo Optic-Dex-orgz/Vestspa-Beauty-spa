@@ -17,7 +17,7 @@ list-style: none;
 body {
     max-width: 1920px;
     margin: auto auto;
-    div { 
+    #content-wrapper { 
         max-width: 1620px;
         margin: auto auto;
     }
@@ -32,7 +32,76 @@ body {
 // <!------------------Runi´s Kode--------------------->
 
 // <!------------------Daniel´s Kode--------------------->
+#book_a_treatment {
+    text-align: center;
+h2 {
+    font-size: 46px;
+    margin: 80px;
+}
+img {
+      width: 100%;
+}
+ 
+}
 
+#myform {
+    background-color: #ff807e0e;
+    width: 100%;
+    label {
+        margin: 30px 30px 30px 75px;
+        text-align: left;
+        display: block;
+
+    }
+      input {
+          display: inline;
+          margin: 20px;
+          width: 40%;
+          height: 40px;
+          border-left: none;
+          border-top: none;
+          border-right: none;
+          background-color: #ff807e00
+       }
+      textarea {
+          margin: auto auto;
+          resize: none; 
+          display: block;
+          width: 85%;
+          height: 24%;
+          border-left: none;
+          border-top: none;
+          border-right: none;
+          background-color: #ff807e00
+      }
+      #buttons {
+          margin-left: -55%;
+      }
+      button {
+          background-color: #ff817e;
+          color: white;
+          padding: 20px;
+          margin: 20px 20px 20px 20px;
+          border: none;
+      }
+}
+#bookIcons {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    #china {
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 5%;
+        height: 100%;
+    }
+    .jasmin {
+        width: 5%;
+        height: 60%;
+    }
+}
 // <!------------------Daniel´s Kode--------------------->
 
 // <!------------------Kiki´s Kode--------------------->

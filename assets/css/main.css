@@ -4,3 +4,131 @@
   text-decoration: none;
   list-style: none;
 }
+
+#book_a_treatment {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.9fr 1.1fr;
+      grid-template-columns: 0.9fr 1.1fr;
+      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
+}
+
+#bookh2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bookh2;
+}
+
+#bookImg {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: bookImg;
+}
+
+#myform {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: myform;
+}
+
+#bookIcons {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bookIcons;
+}
+
+body {
+  max-width: 1920px;
+  margin: auto auto;
+}
+
+body #content-wrapper {
+  max-width: 1620px;
+  margin: auto auto;
+}
+
+#book_a_treatment {
+  text-align: center;
+}
+
+#book_a_treatment h2 {
+  font-size: 46px;
+  margin: 80px;
+}
+
+#book_a_treatment img {
+  width: 100%;
+}
+
+#myform {
+  background-color: #ff807e0e;
+  width: 100%;
+}
+
+#myform label {
+  margin: 30px 30px 30px 75px;
+  text-align: left;
+  display: block;
+}
+
+#myform input {
+  display: inline;
+  margin: 20px;
+  width: 40%;
+  height: 40px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: #ff807e00;
+}
+
+#myform textarea {
+  margin: auto auto;
+  resize: none;
+  display: block;
+  width: 85%;
+  height: 24%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: #ff807e00;
+}
+
+#myform #buttons {
+  margin-left: -55%;
+}
+
+#myform button {
+  background-color: #ff817e;
+  color: white;
+  padding: 20px;
+  margin: 20px 20px 20px 20px;
+  border: none;
+}
+
+#bookIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bookIcons #china {
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 5%;
+  height: 100%;
+}
+
+#bookIcons .jasmin {
+  width: 5%;
+  height: 60%;
+}
