@@ -52,10 +52,10 @@ body {
 
 
 body #content-wrapper {
-body div {
   max-width: 1620px;
   margin: auto auto;
 }
+
 
 #book_a_treatment {
   text-align: center;
