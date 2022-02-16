@@ -13,6 +13,8 @@ list-style: none;
 @import './helper/footer';
 @import './helper/animation';
 
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     max-width: 1920px;
@@ -25,6 +27,257 @@ body {
 
 // <!------------------Anne´s Kode--------------------->
 
+header{
+position: relative;
+font-family: 'Rufina', serif;
+
+#wellness{
+width: 40%;}
+
+#leaf{
+position: absolute;
+left: 0;
+top: 180px;
+width: 12%;
+}
+
+nav{
+position: relative;
+top: 30px;
+left: 400px;
+margin: 20px 0;
+padding: 20px;
+
+ul{   
+display: flex;
+align-items: center;
+gap: 40px;
+
+li{
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+       
+a{
+color: black;
+&:hover{
+color: #ff817e;
+transition: ease-in-out 500ms;
+}   
+}
+}
+
+.logo{
+width: 10%;
+text-align: center;
+position: absolute;
+top: -43px;
+left: -260px;
+margin: 0 140px 30px 60px;
+
+img{
+width:40%;
+}
+   
+h4{
+color: #263a41;
+font-size: 30px;
+font-family: 'Rufina', serif;
+letter-spacing: 2px;
+}
+}
+}
+}
+
+#wellness{
+width: 37%;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+
+#leaf{
+width: 12%;
+}
+
+#bands{
+width: 600px;
+position: absolute;
+left: 200px;
+top: 200px;
+
+h1{
+font-size: 4vw;
+}
+
+h5{
+color: #ff817e;
+margin: 20px 0;
+font-size: 20px;
+}
+
+h3{
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+color: #888888;
+font-weight: bolder;
+margin: 20px 0;
+line-height: 30px;
+}
+
+#reserve{
+font-size: 15px;    
+padding: 15px;
+font-weight: 600;
+background-color: #ff817e;
+color: white;
+border: none;
+
+&:hover{
+cursor: pointer;
+color: black;
+transition: ease-in-out 500ms;
+}
+}
+
+#watch{
+font-size: 15px;
+padding: 15px;
+border: none;
+background: none;
+color: #888888;
+font-weight: 600;
+
+&:hover{
+cursor: pointer;
+color: #ff817e;
+transition: ease-in-out 500ms;
+}
+
+i{
+color: #ffffff;
+margin: 0 5px;
+background-color: #ff807e6b;
+padding: 10px 11px;
+border-radius: 50%;
+}
+}
+}
+
+
+// BURGERMENU
+#burger-menu {
+display: none;
+position: fixed;
+top: 0;
+right: 0;
+cursor: pointer;
+height: 27px;
+width: 27px;
+margin: 50px;
+overflow: visible;
+z-index: 2;
+
+span {
+background: rgb(0, 0, 0);
+display: block;
+height: 2px;
+opacity: 1;
+position: absolute;
+transition: 0.3s ease-in-out;
+right: 0px;
+top: 13px;
+width: 27px;
+
+&:before {
+background: rgb(0, 0, 0);
+display: block;
+height: 2px;
+opacity: 1;
+position: absolute;
+transition: 0.3s ease-in-out;
+content: "";
+left: 0px;
+top: -10px;
+width: 27px;
+}
+
+&:after {
+background: rgb(0, 0, 0);
+display: block;
+height: 2px;
+opacity: 1;
+position: absolute;
+transition: 0.3s ease-in-out;
+content: "";
+left: 0px;
+top: 10px;
+width: 27px;
+}
+}
+}
+
+@media screen and (max-width: 800px) {
+#burgermenu{
+display: block;
+}
+}
+
+#burger-menu.close {
+span {
+transform: rotate(-45deg);
+top: 13px;
+width: 27px;
+
+&:before {
+top: 0px;
+transform: rotate(90deg);
+width: 27px;
+}
+
+&:after {
+top: 0px;
+left: 0;
+transform: rotate(90deg);
+opacity: 0;
+width: 0;
+}
+}
+}
+
+#menu {
+z-index: 1;
+min-width: 100%;
+min-height: 100%;
+position: fixed;
+top: 0;
+height: 0;
+visibility: hidden;
+opacity: 0;
+text-align: center;
+padding-top: 20px;
+transition: all 0.3s ease-in-out;
+
+li{
+list-style: none;
+}
+
+a{
+color: #fff;
+display: block;
+font-size: 32px;
+margin-bottom: 30px;
+text-decoration: none;
+}
+}
+
+#menu.overlay {
+visibility: visible;
+opacity: 1;
+padding-top: 100px;
+background: rgba(0, 0, 0, 0.5);
+}
+}
 // <!------------------Anne´s Kode--------------------->
 
 // <!------------------Runi´s Kode--------------------->
