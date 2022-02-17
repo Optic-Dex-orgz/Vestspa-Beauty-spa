@@ -7,6 +7,39 @@
   list-style: none;
 }
 
+#book_a_treatment {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.9fr 1.1fr;
+      grid-template-columns: 0.9fr 1.1fr;
+      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
+}
+
+#bookh2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bookh2;
+}
+
+#bookImg {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: bookImg;
+}
+
+#myform {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: myform;
+}
+
+#bookIcons {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: bookIcons;
+}
 
 #About {
   text-align: center;
@@ -75,37 +108,6 @@ body {
   margin: auto auto;
 }
 
-body div {
-  max-width: 1620px;
-  margin: auto auto;
-}
-
-#book_a_treatment {
-  display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
-}
-
-#bookh2 {
-  grid-area: bookh2;
-}
-
-#bookImg {
-  grid-area: bookImg;
-}
-
-#myform {
-  grid-area: myform;
-}
-
-#bookIcons {
-  grid-area: bookIcons;
-}
-
-body {
-  max-width: 1920px;
-  margin: auto auto;
-}
 body #content-wrapper {
   max-width: 1620px;
   margin: auto auto;
@@ -113,9 +115,10 @@ body #content-wrapper {
 
 header {
   position: relative;
-  font-family: "Rufina", serif;
+  font-family: 'Rufina', serif;
   height: 80vh;
 }
+
 header nav {
   position: absolute;
   top: 30px;
@@ -123,22 +126,32 @@ header nav {
   margin: 20px 0;
   padding: 20px;
 }
+
 header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 40px;
 }
+
 header nav ul li {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
+
 header nav ul li a {
   color: black;
 }
+
 header nav ul li a:hover {
   color: #ff817e;
+  -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
 }
+
 header nav ul .logo {
   width: 10%;
   text-align: center;
@@ -147,10 +160,11 @@ header nav ul .logo {
   left: -305px;
   margin: 0 140px 30px 60px;
 }
+
 header nav ul h4 {
   color: #263a41;
   font-size: 30px;
-  font-family: "Rufina", serif;
+  font-family: 'Rufina', serif;
   letter-spacing: 2px;
 }
 
@@ -174,22 +188,26 @@ header nav ul h4 {
   top: 200px;
   width: 40%;
 }
+
 #bands h1 {
   font-size: 4vw;
 }
+
 #bands h5 {
   color: #ff817e;
   margin: 20px 0;
   font-size: 20px;
 }
+
 #bands h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: #888888;
   font-weight: bolder;
   margin: 20px 0;
   line-height: 30px;
 }
+
 #bands #reserve {
   font-size: 15px;
   padding: 15px;
@@ -198,11 +216,14 @@ header nav ul h4 {
   color: white;
   border: none;
 }
+
 #bands #reserve:hover {
   cursor: pointer;
   color: black;
+  -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
 }
+
 #bands #watch {
   font-size: 15px;
   padding: 15px;
@@ -211,11 +232,14 @@ header nav ul h4 {
   color: #888888;
   font-weight: 600;
 }
+
 #bands #watch:hover {
   cursor: pointer;
   color: #ff817e;
+  -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
 }
+
 #bands #watch i {
   color: #ffffff;
   margin: 0 5px;
@@ -227,10 +251,12 @@ header nav ul h4 {
 #book_a_treatment {
   text-align: center;
 }
+
 #book_a_treatment h2 {
   font-size: 46px;
   margin: 80px;
 }
+
 #book_a_treatment img {
   width: 100%;
 }
@@ -239,11 +265,13 @@ header nav ul h4 {
   background-color: #ff807e0e;
   width: 100%;
 }
+
 #myform label {
   margin: 30px 30px 30px 75px;
   text-align: left;
   display: block;
 }
+
 #myform input {
   display: inline;
   margin: 20px;
@@ -254,6 +282,7 @@ header nav ul h4 {
   border-right: none;
   background-color: #ff807e00;
 }
+
 #myform textarea {
   margin: auto auto;
   resize: none;
@@ -265,9 +294,11 @@ header nav ul h4 {
   border-right: none;
   background-color: #ff807e00;
 }
+
 #myform #buttons {
   margin-left: -55%;
 }
+
 #myform button {
   background-color: #ff817e;
   color: white;
@@ -277,19 +308,26 @@ header nav ul h4 {
 }
 
 #bookIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 100px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #bookIcons #china {
   margin-left: 60px;
   margin-right: 60px;
   width: 5%;
   height: 100%;
 }
+
 #bookIcons .jasmin {
   width: 5%;
   height: 60%;
 }
-
