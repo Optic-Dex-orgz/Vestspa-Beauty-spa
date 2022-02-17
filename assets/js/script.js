@@ -70,6 +70,53 @@ function isValidEmail(value) {
     let pattern = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
     return pattern.test(value);
 }
+function switchComment(para) {
+    let id = para
+    if (id == "cm_buttons1") {
+        document.getElementById("cm_buttons1").style.backgroundColor = "#930d0bd1"
+        document.getElementById("cm_buttons2").style.backgroundColor = "#ff807e"
+        document.getElementById("cm_buttons3").style.backgroundColor = "#ff807e"
+        document.getElementById('article3').style.opacity = "0"
+        document.getElementById('article2').style.opacity = "0"
+        setTimeout(function hide_show() {
+            document.getElementById('article2').style.display = "none"
+            document.getElementById('article3').style.display = "none"
+            document.getElementById('article1').style.display = "show"
+        document.getElementById('article1').style.opacity = "1"
+        },1000)
+        return
+    }
+    if (id == "cm_buttons2") {
+        document.getElementById("cm_buttons2").style.backgroundColor = "#930d0bd1"
+        document.getElementById("cm_buttons1").style.backgroundColor = "#ff807e"
+        document.getElementById("cm_buttons3").style.backgroundColor = "#ff807e"
+        document.getElementById('article3').style.opacity = "0"
+        document.getElementById('article1').style.opacity = "0"
+        setTimeout(function hide_show() {
+            document.getElementById('article3').style.display = "none"
+            document.getElementById('article1').style.display = "none"
+            document.getElementById('article2').style.display = "show"
+        document.getElementById('article2').style.opacity = "1"
+        },1000)
+        return
+    }
+    if (id == "cm_buttons3") {
+        document.getElementById("cm_buttons3").style.backgroundColor = "#930d0bd1"
+        document.getElementById("cm_buttons1").style.backgroundColor = "#ff807e"
+        document.getElementById("cm_buttons2").style.backgroundColor = "#ff807e"
+        document.getElementById('article2').style.opacity = "0"
+        document.getElementById('article1').style.opacity = "0"
+        setTimeout(function hide_show() {
+            document.getElementById('article2').style.display = "none"
+        document.getElementById('article1').style.display = "none"
+        document.getElementById('article3').style.display = "show"
+        document.getElementById('article3').style.opacity = "1"
+        },1000)
+        return
+    }
+   
+    
+}
 
 // <!------------------Daniel´s Kode--------------------->
 
