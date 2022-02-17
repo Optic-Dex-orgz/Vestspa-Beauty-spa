@@ -28,7 +28,7 @@ body {
 
 // <!------------------Anne´s Kode--------------------->
 
-header{
+#main-header{
 position: relative;
 font-family: 'Rufina', serif;
 height: 80vh;
@@ -155,6 +155,135 @@ border-radius: 50%;
 }
 }
 }
+<<<<<<< Updated upstream
+=======
+
+
+// BURGERMENU
+#burger-menu {
+display: none;
+position: fixed;
+top: 0;
+right: 0;
+cursor: pointer;
+height: 27px;
+width: 27px;
+margin: 50px;
+overflow: visible;
+z-index: 2;
+
+span {
+background: rgb(0, 0, 0);
+display: block;
+height: 2px;
+opacity: 1;
+position: absolute;
+transition: 0.3s ease-in-out;
+right: 0px;
+top: 13px;
+width: 27px;
+
+&:before {
+background: rgb(0, 0, 0);
+display: block;
+height: 2px;
+opacity: 1;
+position: absolute;
+transition: 0.3s ease-in-out;
+content: "";
+left: 0px;
+top: -10px;
+width: 27px;
+}
+
+&:after {
+background: rgb(0, 0, 0);
+display: block;
+height: 2px;
+opacity: 1;
+position: absolute;
+transition: 0.3s ease-in-out;
+content: "";
+left: 0px;
+top: 10px;
+width: 27px;
+}
+}
+}
+
+@media screen and (max-width: 800px) {
+#burgermenu{
+display: block;
+}
+}
+
+#burger-menu.close {
+span {
+transform: rotate(-45deg);
+top: 13px;
+width: 27px;
+
+&:before {
+top: 0px;
+transform: rotate(90deg);
+width: 27px;
+}
+
+&:after {
+top: 0px;
+left: 0;
+transform: rotate(90deg);
+opacity: 0;
+width: 0;
+}
+}
+}
+
+#menu {
+z-index: 1;
+min-width: 100%;
+min-height: 100%;
+position: fixed;
+top: 0;
+height: 0;
+visibility: hidden;
+opacity: 0;
+text-align: center;
+padding-top: 20px;
+transition: all 0.3s ease-in-out;
+
+li{
+list-style: none;
+}
+
+a{
+color: #fff;
+display: block;
+font-size: 32px;
+margin-bottom: 30px;
+text-decoration: none;
+}
+}
+
+#menu.overlay {
+visibility: visible;
+opacity: 1;
+padding-top: 100px;
+background: rgba(0, 0, 0, 0.5);
+}
+}
+
+//EXPERIENCED TEAM
+
+#staff{
+    height: 50vh;
+#main-header{
+
+
+}
+
+}
+>>>>>>> Stashed changes
 // <!------------------Anne´s Kode--------------------->
 
 // <!------------------Runi´s Kode--------------------->

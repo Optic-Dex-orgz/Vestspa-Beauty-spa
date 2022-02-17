@@ -7,43 +7,29 @@
   list-style: none;
 }
 
-
 #book_a_treatment {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.9fr 1.1fr;
-      grid-template-columns: 0.9fr 1.1fr;
-      grid-template-areas: "bookh2 bookh2"
- "bookImg myform"
- "bookIcons bookIcons";
+  grid-template-columns: 0.9fr 1.1fr;
+  grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
 }
 
 #bookh2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: bookh2;
 }
 
 #bookImg {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: bookImg;
 }
 
 #myform {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: myform;
 }
 
 #bookIcons {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: bookIcons;
 }
 
+<<<<<<< Updated upstream
 #About {
   text-align: center;
   width: 100%;
@@ -107,18 +93,19 @@
 }
 
 
+=======
+>>>>>>> Stashed changes
 body {
   max-width: 1920px;
   margin: auto auto;
 }
-
-
 body #content-wrapper {
 
   max-width: 1620px;
   margin: auto auto;
 }
 
+<<<<<<< Updated upstream
 footer {
   background-color: #fff3f1;
   height: 200px;
@@ -222,21 +209,43 @@ header {
 
 header nav {
   position: absolute;
+=======
+#main-header {
+  position: relative;
+  font-family: "Rufina", serif;
+}
+#main-header #wellness {
+  width: 40%;
+}
+#main-header #leaf {
+  position: absolute;
+  left: 0;
+  top: 180px;
+  width: 12%;
+}
+#main-header nav {
+  position: relative;
+>>>>>>> Stashed changes
   top: 30px;
   left: 450px;
   margin: 20px 0;
   padding: 20px;
 }
+<<<<<<< Updated upstream
 
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+#main-header nav ul {
+>>>>>>> Stashed changes
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 40px;
 }
+<<<<<<< Updated upstream
 
 header nav ul li {
   font-family: 'Roboto', sans-serif;
@@ -248,12 +257,26 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+=======
+#main-header nav ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+#main-header nav ul li a {
+  color: black;
+}
+#main-header nav ul li a:hover {
+>>>>>>> Stashed changes
   color: #ff817e;
   -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
 }
+<<<<<<< Updated upstream
 
 header nav ul .logo {
+=======
+#main-header nav ul .logo {
+>>>>>>> Stashed changes
   width: 10%;
   text-align: center;
   position: absolute;
@@ -261,20 +284,33 @@ header nav ul .logo {
   left: -305px;
   margin: 0 140px 30px 60px;
 }
+<<<<<<< Updated upstream
 
 header nav ul h4 {
+=======
+#main-header nav ul .logo img {
+  width: 40%;
+}
+#main-header nav ul .logo h4 {
+>>>>>>> Stashed changes
   color: #263a41;
   font-size: 30px;
   font-family: 'Rufina', serif;
   letter-spacing: 2px;
 }
+<<<<<<< Updated upstream
 
 #wellness {
   width: 35%;
+=======
+#main-header #wellness {
+  width: 37%;
+>>>>>>> Stashed changes
   position: absolute;
   top: 0;
   right: 0;
 }
+<<<<<<< Updated upstream
 
 #leaf {
   position: absolute;
@@ -285,31 +321,55 @@ header nav ul h4 {
 
 #bands {
   position: relative;
+=======
+#main-header #leaf {
+  width: 12%;
+}
+#main-header #bands {
+  width: 600px;
+  position: absolute;
+>>>>>>> Stashed changes
   left: 200px;
   top: 200px;
   width: 40%;
 }
+<<<<<<< Updated upstream
 
 #bands h1 {
   font-size: 4vw;
 }
 
 #bands h5 {
+=======
+#main-header #bands h1 {
+  font-size: 4vw;
+}
+#main-header #bands h5 {
+>>>>>>> Stashed changes
   color: #ff817e;
   margin: 20px 0;
   font-size: 20px;
 }
+<<<<<<< Updated upstream
 
 #bands h3 {
   font-family: 'Roboto', sans-serif;
+=======
+#main-header #bands h3 {
+  font-family: "Roboto", sans-serif;
+>>>>>>> Stashed changes
   font-size: 15px;
   color: #888888;
   font-weight: bolder;
   margin: 20px 0;
   line-height: 30px;
 }
+<<<<<<< Updated upstream
 
 #bands #reserve {
+=======
+#main-header #bands #reserve {
+>>>>>>> Stashed changes
   font-size: 15px;
   padding: 15px;
   font-weight: 600;
@@ -317,15 +377,23 @@ header nav ul h4 {
   color: white;
   border: none;
 }
+<<<<<<< Updated upstream
 
 #bands #reserve:hover {
+=======
+#main-header #bands #reserve:hover {
+>>>>>>> Stashed changes
   cursor: pointer;
   color: black;
   -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
 }
+<<<<<<< Updated upstream
 
 #bands #watch {
+=======
+#main-header #bands #watch {
+>>>>>>> Stashed changes
   font-size: 15px;
   padding: 15px;
   border: none;
@@ -333,21 +401,30 @@ header nav ul h4 {
   color: #888888;
   font-weight: 600;
 }
+<<<<<<< Updated upstream
 
 #bands #watch:hover {
+=======
+#main-header #bands #watch:hover {
+>>>>>>> Stashed changes
   cursor: pointer;
   color: #ff817e;
   -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
 }
+<<<<<<< Updated upstream
 
 #bands #watch i {
+=======
+#main-header #bands #watch i {
+>>>>>>> Stashed changes
   color: #ffffff;
   margin: 0 5px;
   background-color: #ff807e6b;
   padding: 10px 11px;
   border-radius: 50%;
 }
+<<<<<<< Updated upstream
 
 #book_a_treatment {
   text-align: center;
@@ -387,6 +464,95 @@ header nav ul h4 {
 #myform textarea {
   margin: auto auto;
   resize: none;
+=======
+#main-header #burger-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: 50px;
+  overflow: visible;
+  z-index: 2;
+}
+#main-header #burger-menu span {
+  background: black;
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  right: 0px;
+  top: 13px;
+  width: 27px;
+}
+#main-header #burger-menu span:before {
+  background: black;
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  content: "";
+  left: 0px;
+  top: -10px;
+  width: 27px;
+}
+#main-header #burger-menu span:after {
+  background: black;
+  display: block;
+  height: 2px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  content: "";
+  left: 0px;
+  top: 10px;
+  width: 27px;
+}
+@media screen and (max-width: 800px) {
+  #main-header #burgermenu {
+    display: block;
+  }
+}
+#main-header #burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+}
+#main-header #burger-menu.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+}
+#main-header #burger-menu.close span:after {
+  top: 0px;
+  left: 0;
+  transform: rotate(90deg);
+  opacity: 0;
+  width: 0;
+}
+#main-header #menu {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+#main-header #menu li {
+  list-style: none;
+}
+#main-header #menu a {
+  color: #fff;
+>>>>>>> Stashed changes
   display: block;
   width: 85%;
   height: 24%;
@@ -395,11 +561,68 @@ header nav ul h4 {
   border-right: none;
   background-color: #ff807e00;
 }
+<<<<<<< Updated upstream
 
 #myform #buttons {
   margin-left: -55%;
 }
 
+=======
+#main-header #menu.overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#staff {
+  height: 50vh;
+}
+#book_a_treatment {
+  text-align: center;
+}
+#book_a_treatment h2 {
+  font-size: 46px;
+  margin: 80px;
+}
+#book_a_treatment img {
+  width: 100%;
+}
+
+#myform {
+  background-color: #ff807e0e;
+  width: 100%;
+}
+#myform label {
+  margin: 30px 30px 30px 75px;
+  text-align: left;
+  display: block;
+}
+#myform input {
+  display: inline;
+  margin: 20px;
+  width: 40%;
+  height: 40px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: #ff807e00;
+}
+#myform textarea {
+  margin: auto auto;
+  resize: none;
+  display: block;
+  width: 85%;
+  height: 24%;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: #ff807e00;
+}
+#myform #buttons {
+  margin-left: -55%;
+}
+>>>>>>> Stashed changes
 #myform button {
   background-color: #ff817e;
   color: white;
@@ -409,6 +632,7 @@ header nav ul h4 {
 }
 
 #bookIcons {
+<<<<<<< Updated upstream
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,15 +645,29 @@ header nav ul h4 {
           align-items: center;
 }
 
+=======
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
+>>>>>>> Stashed changes
 #bookIcons #china {
   margin-left: 60px;
   margin-right: 60px;
   width: 5%;
   height: 100%;
 }
+<<<<<<< Updated upstream
 
 #bookIcons .jasmin {
   width: 5%;
   height: 60%;
 
 }
+=======
+#bookIcons .jasmin {
+  width: 5%;
+  height: 60%;
+}
+>>>>>>> Stashed changes
