@@ -326,8 +326,8 @@ img {
 
 // <!------------------Kiki´s Kode--------------------->
 footer {
-    background-color:#fff3f1;
-    height: 200px;
+    background-color:#ff807e0e;
+    height: 300px;
     text-align: center;
 }
 
@@ -349,10 +349,17 @@ footer {
 
 .footer-nav a {
     margin: 10px;
+    color: #263a41;
 }
 
-.footer-nav ul li:hover {
-    color: #ff817e;
+.footer-nav {
+    ul {
+        li {
+            &:hover {
+                color: #ff817e;
+            }
+        }
+    }
 }
 
 .copyright {
@@ -405,10 +412,11 @@ footer {
 
 .footer-logo img {
     width: 6%;
+    margin-top: 30px;
 }
 
 .vestspa {
-    font-size: bold;
+    font-size: 25px;
 }
 
 // <!---------Commentary Code--------->
@@ -417,7 +425,7 @@ footer {
     margin: auto auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #fff3f1;
+    background-color: #ff807e0e;
 }
 
 #quote {
