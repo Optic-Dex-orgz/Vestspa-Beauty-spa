@@ -28,7 +28,7 @@ body {
 
 // <!------------------Anne´s Kode--------------------->
 
-header{
+#main-header{
 position: relative;
 font-family: 'Rufina', serif;
 height: 80vh;
@@ -155,6 +155,95 @@ border-radius: 50%;
 }
 }
 }
+
+
+//EXPERIENCED TEAM
+
+#staff{
+text-align: center;
+margin: 50px 0;
+    
+#staff-header{
+    h2{
+    font-size: 46px;
+    }
+
+    h4{
+    font-size: 20px;  
+    color: #888888;
+    margin: 40px 0; 
+    }
+}
+
+.figures{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.fig-container{
+position: relative;
+
+
+.image{
+width: 100%;
+height: auto;
+}
+}
+
+.overlay{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: #ffffff;
+overflow: hidden;
+width: 100%;
+height: 0;
+transition: 200ms ease-in-out;
+
+    i{
+    font-size: 30px;
+    margin: 5px 2px;
+    }
+}
+
+.fig-container:hover .overlay {
+height: 10%;
+}
+
+.name-overlay{
+padding-bottom:20px ;
+position: absolute;
+bottom: 0px;
+left: 0;
+right: 0;
+background-color: #ffffff;
+width: 100%;
+height: 40px;
+transition: 200ms ease-in-out;
+
+    h5{
+    font-size: 30px;
+    margin-top: 10px;  
+        p{
+        margin: 10px 0;
+        color: #888888;
+        font-size: 20px;
+        }
+    }
+
+    i{
+        font-size: 30px;
+        margin: 5px 2px;
+        }
+}
+
+.fig-container:hover .name-overlay {
+    height: 25%;
+  }
+}
+
 // <!------------------Anne´s Kode--------------------->
 
 // <!------------------Runi´s Kode--------------------->
