@@ -12,7 +12,10 @@
   display: grid;
   -ms-grid-columns: 0.9fr 1.1fr;
       grid-template-columns: 0.9fr 1.1fr;
-      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
+
+      grid-template-areas: "bookh2 bookh2"
+ "bookImg myform"
+ "bookIcons bookIcons";
 }
 
 #bookh2 {
@@ -342,6 +345,8 @@ footer {
   color: #ff817e;
 }
 
+
+
 .footer-nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -505,4 +510,5 @@ footer {
 
 #client_name {
   font-size: larger;
+
 }
