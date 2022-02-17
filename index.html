@@ -5,14 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+    
     <script src="./assets/js/script.js" defer></script>
-    <title>VestSpa Beauty Spa</title>
+
+    <script src="https://kit.fontawesome.com/4d3101f017.js" crossorigin="anonymous"></script>
+   <title>VestSpa Beauty Spa</title>
 </head>
 <body>
     <!------------------header--------------------->
+
+<header>
+
+<!-- NAV -->
+    <nav>
+        <ul>
+            <li> 
+                <div class="logo"><a href="#"> 
+                    <img src="./assets/img/butterfly-png.png" alt="butterfly"> </a> <br>
+                        <h4>Leospa</h4>
+                </div> 
+            </li>
+
+            <li> <a href="./index.html">HOME</a> </li>
+            <li> <a href="#">ABOUT</a> </li>
+            <li> <a href="#">FEATURE</a> </li>
+            <li> <a href="#">SERVICE</a> </li>
+            <li> <a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+
+<!-- TEXT -->
+
+    <img id="leaf" src="./assets/img/leaf-png.png" alt="leaf">
+    <img id="wellness" src="./assets/img/spa-png.png" alt="wellness">
+   
+    <div id="bands">
+        <h5>SPA & BEAUTY CENTER</h5>
+        <h1>Beauty and succes starts here.</h1>
+        <h3>Together creeping heaven upon third dominion be upon wont darkness rule behold it created good saw after she'd Our set living.</h3>
+
+<!-- BUTTONS -->
+            <div class="buttons">
+                <button id="reserve"> <p>RESERVE NOW</p> </button>
+                <button id="watch"><i class="fas fa-play"></i> Watch our story</button>
+            </div>
+    </div>
+</header>
+
     <!------------------header--------------------->
 <div id="content-wrapper">
     <!------------------About--------------------->
+    <section id="About">
+        <img id="ButterFly" src="./assets/img/butterfly-png.png" alt="">
+        <img id="ChinaRose" src="./assets/img/china-rose-png.png" alt="">
+        <img id="Jasmine" src="./assets/img/jasmine-png.png" alt="">
+        <h3>ABOUT OUR SPA</h3>
+        <h2>Come and you will be inspired!</h2>
+        <p>it´s the end of summer the sweltering heat makes humans sweat in the night and makes the plants and trees wilt even in the moonlit nights. The eastern wind breeze brings an eerie feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears, the sky gets darker and darker</p>
+        <button>READ MORE</button>
+    </section>
     <!------------------About--------------------->
     <!--------------------Treatment------------------->
     <!------------------Treatment--------------------->
@@ -23,6 +78,30 @@
     <!------------------Staff--------------------->
     <!------------------Staff--------------------->
     <!------------------Form--------------------->
+    <section id="book_a_treatment">
+        <h2 id="bookh2">Book a Treatment</h2>
+        <img id="bookImg" src="./assets/img/2-jpeg.jpeg" alt="Treatment">
+         <form id="myform">
+                    <label>Fill in the form and make a reservation</label>
+                   <input type="text" name="name" id="name" placeholder="NAME" required />
+                   <input type="email" name="email" id="email" placeholder="EMAIL" required />
+                   <input type="text" name="service" id="service" placeholder="SERVICE" required />
+                   <input type="tel" name="phone" id="phone" placeholder="PHONE" required />
+                   <input placeholder="DATE" type="text" onfocus="(this.type = 'date')"  id="date" required>
+                   <input placeholder="TIME" type="text" onfocus="(this.type = 'time')"id="time" name="time" min="09:00" max="18:00" required>
+                   <textarea type="text" name="text" id="message" placeholder="COMMENT" required></textarea>
+                   <div id="buttons">
+                   <button type="button" id="submit" onclick="formvalidation()">RESERVE NOW</button>
+                   <button type="button" id="reset">RESET</button>
+                </div>
+               </form>
+               <div id="bookIcons">
+                   <img class="jasmin" src="./assets/img/jasmine-png.png" alt="jasmine_flower" />
+                   <img id="china" src="./assets/img/china-rose-png.png" alt="china_rose" />
+                   <img class="jasmin" src="./assets/img/jasmine-png.png" alt="jasmine_flower" />
+
+            </div>
+    </section>
     <!------------------Form--------------------->
 </div>
     <!------------------Footer--------------------->

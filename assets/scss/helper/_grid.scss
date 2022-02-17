@@ -1,1 +1,23 @@
 @import './variables';
+
+
+#book_a_treatment {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-areas: 
+    "bookh2 bookh2"
+    "bookImg myform"
+    "bookIcons bookIcons";
+}
+#bookh2 {
+    grid-area: bookh2;
+}
+#bookImg {
+    grid-area: bookImg;
+}
+#myform {
+    grid-area: myform;
+}
+#bookIcons {
+    grid-area: bookIcons;
+}
