@@ -12,7 +12,10 @@
   display: grid;
   -ms-grid-columns: 0.9fr 1.1fr;
       grid-template-columns: 0.9fr 1.1fr;
-      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
+
+      grid-template-areas: "bookh2 bookh2"
+ "bookImg myform"
+ "bookIcons bookIcons";
 }
 
 #bookh2 {
@@ -342,6 +345,8 @@ footer {
   color: #ff817e;
 }
 
+
+
 .footer-nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -426,4 +431,84 @@ footer {
 
 .vestspa {
   font-size: bold;
+}
+
+#cm1 {
+  text-align: center;
+  margin: auto auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #fff3f1;
+}
+
+#quote {
+  width: 2%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#article1 {
+  width: 700px;
+  margin: auto auto;
+  display: show;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+#article2 {
+  width: 700px;
+  margin: auto auto;
+  display: none;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+#article3 {
+  width: 700px;
+  margin: auto auto;
+  display: none;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+#cm_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cm_buttons div {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px 100px;
+  background-color: #ff807e;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#cm_buttons div:hover {
+  background-color: #930d0bd1;
+}
+
+#cm_buttons2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#client_img {
+  overflow: hidden;
+  border-radius: 34px 34px;
+  width: 75px;
+  height: 75px;
+  margin: auto auto;
+  border: 1px solid #263a41;
+  margin-bottom: 30px;
+}
+
+#client_name {
+  font-size: larger;
+
 }
