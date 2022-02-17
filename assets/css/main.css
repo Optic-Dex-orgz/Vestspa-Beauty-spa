@@ -7,6 +7,79 @@
   list-style: none;
 }
 
+
+#About {
+  text-align: center;
+  width: 100%;
+}
+
+#About h2 {
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  width: 50%;
+  font-family: 'Rufina', serif;
+}
+
+#About h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+#About p {
+  margin: auto;
+  margin-bottom: 2vw;
+  width: 50%;
+  font-family: 'Rufina', serif;
+}
+
+#About button {
+  border: none;
+  background-color: #ff187e;
+  width: 10vw;
+  height: 4vw;
+  border-radius: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+#About button:hover {
+  background-color: #263a41;
+  color: #ff187e;
+}
+
+#ButterFly {
+  margin: auto;
+  margin-bottom: 2vw;
+}
+
+#ChinaRose {
+  position: absolute;
+  left: 10vw;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+#Jasmine {
+  position: absolute;
+  top: 15vw;
+  right: 16vw;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+body {
+  max-width: 1920px;
+  margin: auto auto;
+}
+
+body div {
+  max-width: 1620px;
+  margin: auto auto;
+}
+
 #book_a_treatment {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -219,3 +292,4 @@ header nav ul h4 {
   width: 5%;
   height: 60%;
 }
+
