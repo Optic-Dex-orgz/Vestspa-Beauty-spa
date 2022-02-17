@@ -12,10 +12,7 @@
   display: grid;
   -ms-grid-columns: 0.9fr 1.1fr;
       grid-template-columns: 0.9fr 1.1fr;
-
-      grid-template-areas: "bookh2 bookh2"
- "bookImg myform"
- "bookIcons bookIcons";
+      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
 }
 
 #bookh2 {
@@ -345,8 +342,6 @@ footer {
   color: #ff817e;
 }
 
-
-
 .footer-nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -453,6 +448,9 @@ footer {
   display: show;
   margin-bottom: 30px;
   font-size: larger;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  opacity: 1;
 }
 
 #article2 {
@@ -461,6 +459,9 @@ footer {
   display: none;
   margin-bottom: 30px;
   font-size: larger;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  opacity: 0;
 }
 
 #article3 {
@@ -469,6 +470,9 @@ footer {
   display: none;
   margin-bottom: 30px;
   font-size: larger;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  opacity: 0;
 }
 
 #cm_buttons {
@@ -489,10 +493,6 @@ footer {
   margin-bottom: 30px;
 }
 
-#cm_buttons div:hover {
-  background-color: #930d0bd1;
-}
-
 #cm_buttons2 {
   margin-left: 20px;
   margin-right: 20px;
@@ -510,5 +510,4 @@ footer {
 
 #client_name {
   font-size: larger;
-
 }
