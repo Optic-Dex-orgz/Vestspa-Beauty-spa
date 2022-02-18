@@ -731,7 +731,12 @@ footer {
   font-size: larger;
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  height: 150px;
   opacity: 1;
+}
+
+#article1 p {
+  margin-top: 40px;
 }
 
 #article2 {
@@ -743,6 +748,11 @@ footer {
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
   opacity: 0;
+  height: 150px;
+}
+
+#article2 p {
+  margin-top: 40px;
 }
 
 #article3 {
@@ -754,6 +764,11 @@ footer {
   -webkit-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
   opacity: 0;
+  height: 150px;
+}
+
+#article3 p {
+  margin-top: 40px;
 }
 
 #cm_buttons {

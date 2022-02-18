@@ -458,7 +458,11 @@ footer {
   margin-bottom: 30px;
   font-size: larger;
   transition: 300ms ease-in-out;
+  height: 150px;
   opacity: 1;
+  p {
+      margin-top: 40px;
+  }
 }
 
 #article2 {
@@ -469,6 +473,10 @@ footer {
   font-size: larger;
   transition: 300ms ease-in-out;
   opacity: 0;
+  height: 150px;
+  p {
+    margin-top: 40px;
+}
 }
 
 #article3 {
@@ -479,6 +487,11 @@ footer {
   font-size: larger;
   transition: 300ms ease-in-out;
   opacity: 0;
+  height: 150px;
+  p {
+    margin-top: 40px;
+}
+
 }
 
 #cm_buttons {
