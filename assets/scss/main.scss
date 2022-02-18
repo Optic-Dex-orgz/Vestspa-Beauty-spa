@@ -21,12 +21,12 @@ list-style: none;
 body {
     max-width: 1920px;
     margin: auto auto;
-    #content-wrapper { 
+   
+}
+ #content-wrapper { 
         max-width: 1620px;
         margin: auto auto;
     }
-}
-
 // <!------------------Anne´s Kode--------------------->
 
 #main-header{
@@ -253,6 +253,7 @@ transition: 200ms ease-in-out;
 
 // <!------------------Daniel´s Kode--------------------->
 #book_a_treatment {
+    font-family: 'Rufina', serif;
     text-align: center;
 h2 {
     font-size: 46px;
@@ -265,6 +266,7 @@ img {
 }
 
 #myform {
+    
     background-color: #ff807e0e;
     width: 100%;
     label {
@@ -274,6 +276,7 @@ img {
 
     }
       input {
+        font-family: 'Rufina', serif;
           display: inline;
           margin: 20px;
           width: 40%;
@@ -284,6 +287,7 @@ img {
           background-color: #ff807e00
        }
       textarea {
+        font-family: 'Rufina', serif;
           margin: auto auto;
           resize: none; 
           display: block;
@@ -295,7 +299,7 @@ img {
           background-color: #ff807e00
       }
       #buttons {
-          margin-left: -55%;
+          margin-left: -53%;
       }
       button {
           background-color: #ff817e;
@@ -303,6 +307,12 @@ img {
           padding: 20px;
           margin: 20px 20px 20px 20px;
           border: none;
+          &:hover{
+            background-color: #263a41;
+            color: #ff817e;
+
+
+        }
       }
 }
 #bookIcons {
@@ -310,16 +320,17 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     align-items: center;
     #china {
         margin-left: 60px;
         margin-right: 60px;
-        width: 5%;
-        height: 100%;
+        width: 100px;
+        height: 100px;
     }
     .jasmin {
-        width: 5%;
-        height: 60%;
+        width: 60px;
+        height: 60px;
     }
 }
 // <!------------------Daniel´s Kode--------------------->
@@ -477,7 +488,9 @@ footer {
 
     }
 }
-
+#cm_buttons1 {
+    background-color: #ff807e;
+}
 #cm_buttons2 {
     margin-left: 20px;
     margin-right: 20px;

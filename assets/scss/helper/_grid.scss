@@ -21,3 +21,59 @@
 #bookIcons {
     grid-area: bookIcons;
 }
+
+#treatment {
+    margin: 75px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "fig1 fig2 fig3 fig4";
+    gap: 1em;
+    figure {
+        position: relative;
+        &:hover {
+            .hover_img{
+                opacity: 1;
+            }
+            figcaption {
+                opacity: 1;
+            }
+        }
+   
+    .treatment_img { 
+        width: 100%;
+        display: block;
+    }
+    .hover_img{
+    transition: 300ms ease-in-out;
+     opacity: 0;
+     z-index: 9999;
+     position: absolute;
+     top: 40%;
+     left: 40%;
+     width: 20%;
+    }
+    figcaption {
+        transition: 300ms ease-in-out;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ff807e8a;
+    }
+ }
+}
+
+#fig1 {
+    grid-area: fig1;
+}
+#fig2 {
+    grid-area: fig2;
+}
+#fig3 {
+    grid-area: fig3;
+}
+#fig4 {
+    grid-area: fig4;
+}
