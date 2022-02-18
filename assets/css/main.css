@@ -12,10 +12,7 @@
   display: grid;
   -ms-grid-columns: 0.9fr 1.1fr;
       grid-template-columns: 0.9fr 1.1fr;
-
-      grid-template-areas: "bookh2 bookh2"
- "bookImg myform"
- "bookIcons bookIcons";
+      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
 }
 
 #bookh2 {
@@ -281,9 +278,7 @@ body {
   margin: auto auto;
 }
 
-
 .content-wrapper {
-
   max-width: 1620px;
   margin: auto auto;
 }
@@ -533,12 +528,14 @@ body {
 }
 
 #myform label {
+  font-family: 'Rufina', serif;
   margin: 30px 30px 30px 40px;
   text-align: left;
   display: block;
 }
 
 #myform input {
+  font-family: 'Rufina', serif;
   display: inline;
   margin: 20px;
   margin-left: 40px;
@@ -551,12 +548,14 @@ body {
 }
 
 #myform textarea {
+  font-family: 'Rufina', serif;
   margin: auto auto;
   resize: none;
   display: block;
-  width: 87.5%;
-  height: 24%;
-  margin-right: 80px;
+  width: 87%;
+  height: 30%;
+  margin-top: 20px;
+  margin-right: 97px;
   border-left: none;
   border-top: none;
   border-right: none;
@@ -564,15 +563,24 @@ body {
 }
 
 #myform #buttons {
+  margin-top: 20px;
   margin-left: 20px;
 }
 
 #myform button {
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  font-size: large;
   background-color: #ff817e;
   color: white;
-  padding: 20px;
+  padding: 30px 40px;
   margin: 20px 20px 20px 20px;
   border: none;
+}
+
+#myform button:hover {
+  background-color: #263a41;
+  color: #ff817e;
 }
 
 #bookIcons {
@@ -583,6 +591,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 100px;
+  margin-bottom: 100px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -591,13 +600,13 @@ body {
 #bookIcons #china {
   margin-left: 60px;
   margin-right: 60px;
-  width: 5%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
 }
 
 #bookIcons .jasmin {
-  width: 5%;
-  height: 60%;
+  width: 60px;
+  height: 60px;
 }
 
 footer {
