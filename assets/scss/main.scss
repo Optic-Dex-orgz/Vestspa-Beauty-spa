@@ -21,12 +21,11 @@
 body {
   max-width: 1920px;
   margin: auto auto;
-  #content-wrapper {
-    max-width: 1620px;
-    margin: auto auto;
-  }
 }
-
+ #content-wrapper { 
+        max-width: 1620px;
+        margin: auto auto;
+    }
 // <!------------------Anne´s Kode--------------------->
 
 #main-header {
@@ -252,8 +251,9 @@ body {
 
 // <!------------------Daniel´s Kode--------------------->
 #book_a_treatment {
-  text-align: center;
-  h2 {
+h2 {
+  font-family: 'Rufina', serif;
+    text-align: center;
     font-size: 46px;
     margin: 80px;
   }
@@ -317,14 +317,16 @@ body {
     width: 5%;
     height: 60%;
   }
+
 }
 // <!------------------Daniel´s Kode--------------------->
 
 // <!------------------Kiki´s Kode--------------------->
 footer {
-  background-color: #ff807e0e;
-  height: 300px;
-  text-align: center;
+    background-color:#ff807e0e;
+    height: 300px;
+    text-align: center;
+    font-family: 'Rufina', serif;
 }
 
 .footer-codyright-color {
@@ -419,11 +421,12 @@ footer {
 
 // <!---------Commentary Code--------->
 #cm1 {
-  text-align: center;
-  margin: auto auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: #ff807e0e;
+    text-align: center;
+    margin: auto auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ff807e0e;
+    font-family: 'Rufina', serif;
 }
 
 #quote {
@@ -474,7 +477,9 @@ footer {
     margin-bottom: 30px;
   }
 }
-
+#cm_buttons1 {
+    background-color: #ff807e;
+}
 #cm_buttons2 {
   margin-left: 20px;
   margin-right: 20px;
