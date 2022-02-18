@@ -529,7 +529,7 @@ body {
 }
 
 #myform label {
-  margin: 30px 30px 30px 75px;
+  margin: 30px 30px 30px 40px;
   text-align: left;
   display: block;
 }
@@ -537,6 +537,7 @@ body {
 #myform input {
   display: inline;
   margin: 20px;
+  margin-left: 40px;
   width: 40%;
   height: 40px;
   border-left: none;
@@ -549,8 +550,9 @@ body {
   margin: auto auto;
   resize: none;
   display: block;
-  width: 85%;
+  width: 87.5%;
   height: 24%;
+  margin-right: 80px;
   border-left: none;
   border-top: none;
   border-right: none;
@@ -558,7 +560,7 @@ body {
 }
 
 #myform #buttons {
-  margin-left: -55%;
+  margin-left: 20px;
 }
 
 #myform button {
