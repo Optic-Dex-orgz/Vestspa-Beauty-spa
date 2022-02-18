@@ -12,7 +12,10 @@
   display: grid;
   -ms-grid-columns: 0.9fr 1.1fr;
       grid-template-columns: 0.9fr 1.1fr;
-      grid-template-areas: "bookh2 bookh2" "bookImg myform" "bookIcons bookIcons";
+
+      grid-template-areas: "bookh2 bookh2"
+ "bookImg myform"
+ "bookIcons bookIcons";
 }
 
 #bookh2 {
@@ -234,7 +237,6 @@
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(77, 77, 77, 0.404);
   text-align: center;
-  height: 28.5vw;
   padding: 40px 0;
   font-size: 1vw;
 }
@@ -279,7 +281,9 @@ body {
   margin: auto auto;
 }
 
+
 .content-wrapper {
+
   max-width: 1620px;
   margin: auto auto;
 }
