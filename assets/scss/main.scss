@@ -266,11 +266,13 @@ h2 {
   background-color: #ff807e0e;
   width: 100%;
   label {
+    font-family: 'Rufina', serif;
     margin: 30px 30px 30px 40px;
     text-align: left;
     display: block;
   }
   input {
+    font-family: 'Rufina', serif;
     display: inline;
     margin: 20px;
     margin-left: 40px;
@@ -282,24 +284,35 @@ h2 {
     background-color: #ff807e00;
   }
   textarea {
+    font-family: 'Rufina', serif;
     margin: auto auto;
     resize: none;
     display: block;
-    width: 87.5%;
-    height: 24%;
-    margin-right: 80px;
+    width: 87%;
+    height: 30%;
+    margin-top: 20px;
+    margin-right: 97px;
     border-left: none;
     border-top: none;
     border-right: none;
     background-color: #ff807e00;
   }
   #buttons {
+      margin-top: 20px;
     margin-left: 20px;
   }
   button {
+    transition: 200ms ease-in-out;
+    &:hover{
+        background-color: #263a41;
+        color: rgb(255, 129, 126);
+
+
+    }
+    font-size: large;
     background-color: #ff817e;
     color: white;
-    padding: 20px;
+    padding: 30px 40px;
     margin: 20px 20px 20px 20px;
     border: none;
   }
@@ -308,16 +321,17 @@ h2 {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  margin-bottom: 100px;
   align-items: center;
   #china {
     margin-left: 60px;
     margin-right: 60px;
-    width: 5%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
   }
   .jasmin {
-    width: 5%;
-    height: 60%;
+    width: 60px;
+    height: 60px;
   }
 
 }
