@@ -42,6 +42,7 @@
 }
 
 #About {
+  position: relative;
   text-align: center;
   width: 100%;
 }
@@ -97,7 +98,7 @@
 
 #Jasmine {
   position: absolute;
-  top: 15vw;
+  top: 13vw;
   right: 16vw;
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
